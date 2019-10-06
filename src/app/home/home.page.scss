@@ -1,1 +1,85 @@
+* ::-webkit-scrollbar {
+    display: none;
+}
+body {
+    -webkit-user-select: text;
+    user-select: text;
+}
+.slidesContainer {
+    width: 100%;
+    padding: 0 10%;
+    ion-slides {
+        --bullet-background: #000;
+        --bullet-background-active: #9e9e9e;
+        .swiper-container-horizontal>.swiper-pagination-bullets {
+            bottom: 10%;
+        }
+        width: 100%;
+        ion-slide {
+            width: 100%;
+            height: 100vh;
+            flex-direction: column;
+            .text-container {
+                margin-top: 80%;
+            }
+            h1 {
+                font-weight: 600;
+                font-family: 'Roboto', sans-serif;
+                color: #212121;
+            }
+            p {
+                font-family: 'Roboto',
+                sans-serif;
+                font-size: 14px;
+                color: #424242;
+                font-weight: 300;
+            }
+            .lgo {
+                width: 50%;
+                margin-top: -10%;
+            }
+            .lgo2 {
+                width: 50%;
+            }
+            .lgo3 {
+                width: 30%;
+                position: absolute;
+                top: 0;
+            }
+            .lgo4 {
+                width: 50%;
+            }
+            .silla {
+                margin-top: 50%;
+            }
+        }
+    }
+}
 
+
+.title3 {
+    display: flex;
+    justify-content: center;
+}
+
+.rayas-sec {
+    width: 10%;
+}
+
+.btnStrat {
+    background: #ff766c;
+    padding: 10px 10%;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.saltar {
+    position: absolute;
+    top: 2%;
+    right: 5%;
+    color: #c9c9c9;
+    z-index: 99;
+
+}

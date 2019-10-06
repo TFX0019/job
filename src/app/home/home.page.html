@@ -1,14 +1,73 @@
-<ion-header>
-  <ion-toolbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
+  <ion-button class="saltar" (click)="ir()" fill="clear">Saltar</ion-button>
+  <div class="slidesContainer">
+    <ion-slides pager="true">
+      <!-- slide 1 -->
+      <ion-slide>
+        <img class="lgo" src="../../assets/images/logoiostjn.svg" alt="">
+        <div class="text-container">
+          <h1>La Mejor APP</h1> <br>
+          <p><strong>La única plataforma laboral </strong> que conecta profesionales autonomos de la
+            belleza con espacios libres
+            en peluquerias, barberias y centros de estetica</p>
+        </div>
+      </ion-slide>
+      <!-- slide 2 -->
+      <ion-slide>
+        <img class="lgo2" src="../../assets/images/secadorsoloios.svg" alt="">
+        <div class="text-container" style="margin-top: 50%;">
+          <h1>Trabaja donde y cuándo quieras</h1> <br>
+          <p>Dinos en que area te desempeñas, cuándo y dónde quieres comenzar y nosotros <strong>te pondremos en
+              contacto con cientos de espacios en toda España</strong> para que manejes tu tiempo y tu pasión</p>
+        </div>
+      </ion-slide>
+      <!-- slide 3 -->
+      <ion-slide style="justify-content: space-between; padding: 20% 0;">
+        <div class="title3">
+          <img src="../../assets/images/rayas secador izquierda.svg" alt="" class="rayas-sec">
+          <h1>¿Eres profecional de belleza?</h1>
+          <img src="../../assets/images/rayas secador derecha.svg" alt="" class="rayas-sec">
+        </div>
+
+        <img src="../../assets/images/sillaconsombra.svg" class="lgo4" alt="">
+
+        <p>Eres barbero peluquero masajista o esteticista y <strong>¿Necesitas un lugar donde ejercer tu
+            pasión?</strong></p>
+      </ion-slide>
+      <!-- slide 4 -->
+      <ion-slide>
+        <img class="lgo3" src="../../assets/images/mediosecador.svg" alt="">
+        <h1>¿Tienes un espacio?</h1>
+        <div class="silla">
+          <img src="../../assets/images/sillaconsombra.svg" class="lgo4" alt="">
+          <p>¿O tienes una peluqueria, barberia o algún centro de estética <strong>con uno o varios espacios
+              libres</strong> y te gustaria darle más rentabilidad a tu negocio?</p>
+        </div>
+      </ion-slide>
+      <!-- slide 5 -->
+      <ion-slide style="justify-content: space-between; padding: 20% 0;">
+        <img class="lgo" src="../../assets/images/logoiostjn.svg" alt="">
+        <h1>TuJobNow <br> es tu mejor aliado</h1>
+
+        <div>
+          <img class="lgo2" src="../../assets/images/comillas.svg" alt="">
+          <p>¡Por fin una APP pensaba en nosotros!</p>
+        </div>
+      </ion-slide>
+      <!-- slide 6 -->
+      <ion-slide style="justify-content: space-between; padding: 20% 0;">
+        <div>
+          <img class="lgo2" src="../../assets/images/secadorsoloios.svg" alt="">
+          <h1>Y es ¡Gratis!</h1>
+        </div>
+
+        <div>
+          <p>¡Tal y como lees! Una APP gratuita para que impulses tu carrera profecional y llegues tan lejos como
+            quieras llegar.</p>
+
+          <button class="btnStrat">¡Comienza ya!</button>
+        </div>
+      </ion-slide>
+    </ion-slides>
   </div>
 </ion-content>
